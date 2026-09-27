@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0c" />
+  <meta name="description" content="A cinematic Marvel-inspired event experience by GeeksForGeeks Student Chapter, Bennett University." />
+  <title>THUNDER // GFG × BENNETT UNIVERSITY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23e41d2d' d='M57 2 14 58h29l-8 40 51-63H57z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-mark">THUNDER</div>
+    <div class="loader-line"><span></span></div>
+  </div>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="noise"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Thunder home">
+      <span class="brand-mark">⚡</span>
+      <span>
+        <strong>THUNDER</strong>
+        <small>GFG × BENNETT</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#event">Event</a>
+      <a href="#experience">Experience</a>
+      <a href="#journey">Journey</a>
+      <a href="#register">Register</a>
+    </nav>
+
+    <button class="header-cta" data-open-register>Register <span>↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-backdrop"></div>
+      <div class="lightning lightning-one"></div>
+      <div class="lightning lightning-two"></div>
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> GEEKSFORGEEKS STUDENT CHAPTER · BENNETT UNIVERSITY</p>
+        <h1>THE GOD<br><em>OF THUNDER</em></h1>
+        <p class="hero-sub">
+          A cinematic campus experience built around code, creativity and the electric energy of the digital realm.
+        </p>
+        <div class="hero-actions">
+          <button class="primary-btn magnetic" data-open-register>
+            <span>Register now</span><b>↗</b>
+          </button>
+          <a class="text-link" href="#event">Explore event <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span>01</span>
+          <i></i>
+          <span>BENNETT UNIVERSITY</span>
+          <i></i>
+          <span>DATE · TBA</span>
+        </div>
+      </div>
+
+      <div class="hero-character" aria-hidden="true">
+        <div class="character-aura"></div>
+        <img src="assets/thor.png" alt="" />
+      </div>
+
+      <div class="hero-side">
+        <span>MARVEL-INSPIRED</span>
+        <span>EXPERIENCE / 01</span>
+      </div>
+
+      <div class="scroll-cue"><span></span> SCROLL TO DISCOVER</div>
+    </section>
+
+    <section class="intro section" id="event">
+      <div class="section-label reveal"><span>01</span><b>THE EVENT</b></div>
+      <div class="intro-grid">
+        <div class="reveal">
+          <p class="kicker">WHEN CODE MEETS THE GODS</p>
+          <h2>Not another<br><em>college event.</em></h2>
+        </div>
+        <div class="intro-text reveal">
+          <p>
+            THUNDER is a Marvel-inspired event experience imagined for the GeeksForGeeks Student Chapter at Bennett University.
+            The visual language is bold, restrained and cinematic — built to feel like a real digital launch rather than a classroom template.
+          </p>
+          <p>
+            Expect an atmosphere of challenges, collaboration and creation, with every interaction designed to feel deliberate.
+          </p>
+        </div>
+      </div>
+
+      <div class="event-details">
+        <article class="detail-card reveal">
+          <span class="detail-index">01</span>
+          <div class="detail-icon">◷</div>
+          <p>DATE</p>
+          <h3>To be announced</h3>
+          <small>Stay tuned for the official reveal.</small>
+        </article>
+        <article class="detail-card reveal">
+          <span class="detail-index">02</span>
+          <div class="detail-icon">⌖</div>
+          <p>VENUE</p>
+          <h3>Bennett University</h3>
+          <small>Greater Noida, Uttar Pradesh</small>
+        </article>
+        <article class="detail-card reveal">
+          <span class="detail-index">03</span>
+          <div class="detail-icon">◴</div>
+          <p>TIME</p>
+          <h3>TBA</h3>
+          <small>Final schedule will be announced.</small>
+        </article>
+        <article class="detail-card reveal">
+          <span class="detail-index">04</span>
+          <div class="detail-icon">✦</div>
+          <p>HOSTED BY</p>
+          <h3>GFG Student Chapter</h3>
+          <small>Bennett University</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="experience-visual reveal">
+        <div class="visual-frame">
+          <div class="frame-grid"></div>
+          <img src="assets/thor.png" alt="Thor themed artwork" />
+          <span class="frame-caption">THE ODINSON / 01</span>
+          <span class="frame-corner tl"></span>
+          <span class="frame-corner tr"></span>
+          <span class="frame-corner bl"></span>
+          <span class="frame-corner br"></span>
+        </div>
+      </div>
+
+      <div class="experience-copy">
+        <div class="section-label reveal"><span>02</span><b>THE EXPERIENCE</b></div>
+        <p class="kicker reveal">WORTHY OF THE HAMMER</p>
+        <h2 class="reveal">Power is<br><em>earned.</em></h2>
+        <p class="body-copy reveal">
+          Every challenge is a chance to prove your craft. The event is structured around the same idea that defines Thor:
+          show up, rise to the challenge, and build something worthy of being remembered.
+        </p>
+
+        <div class="feature-list">
+          <div class="feature reveal">
+            <span>01</span>
+            <div><h3>Challenge</h3><p>Put your problem-solving mindset to work.</p></div>
+          </div>
+          <div class="feature reveal">
+            <span>02</span>
+            <div><h3>Create</h3><p>Turn ideas into experiences people remember.</p></div>
+          </div>
+          <div class="feature reveal">
+            <span>03</span>
+            <div><h3>Connect</h3><p>Meet builders, learners and ambitious peers.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-lines"></div>
+      <div class="manifesto-content reveal">
+        <span>THE NINE REALMS / THE DIGITAL REALM</span>
+        <h2>BUILD WITH<br><em>THUNDER.</em></h2>
+        <p>Clean interfaces. Strong ideas. Relentless curiosity.</p>
+      </div>
+      <div class="hammer-symbol" aria-hidden="true">⚡</div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="section-label reveal"><span>03</span><b>THE JOURNEY</b></div>
+      <div class="journey-heading">
+        <div class="reveal">
+          <p class="kicker">FROM FIRST CLICK TO FINAL SPARK</p>
+          <h2>Your journey<br><em>starts here.</em></h2>
+        </div>
+        <p class="journey-note reveal">
+          Designed as a simple three-stage story so the website feels like an experience, not a form with a hero image.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-card reveal">
+          <span class="timeline-number">01</span>
+          <div class="timeline-image image-one"></div>
+          <div class="timeline-content">
+            <span>THE CALL</span>
+            <h3>Answer the signal.</h3>
+            <p>Discover the event, understand the mission and choose to step into the experience.</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <span class="timeline-number">02</span>
+          <div class="timeline-image image-two"></div>
+          <div class="timeline-content">
+            <span>THE TRIAL</span>
+            <h3>Prove your worth.</h3>
+            <p>Bring your ideas, curiosity and technical mindset. Every challenge is a chance to learn.</p>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <span class="timeline-number">03</span>
+          <div class="timeline-image image-three"></div>
+          <div class="timeline-content">
+            <span>THE ASCENT</span>
+            <h3>Leave your mark.</h3>
+            <p>Connect with the community, celebrate the work and carry the spark forward.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="register-section section" id="register">
+      <div class="register-panel reveal">
+        <div>
+          <span class="kicker">THE GATES ARE OPEN</span>
+          <h2>Are you<br><em>worthy?</em></h2>
+        </div>
+        <div class="register-right">
+          <p>Registration takes less than a minute. Enter your details and reserve your place for the official announcement.</p>
+          <button class="primary-btn magnetic" data-open-register><span>Register now</span><b>↗</b></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="brand-mark">⚡</span>
+      <div><strong>THUNDER</strong><small>GFG × BENNETT UNIVERSITY</small></div>
+    </div>
+    <p>Marvel-inspired concept · Built for the GeeksForGeeks Student Chapter</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="modal" id="registerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-register></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close-register aria-label="Close registration form">×</button>
+      <div class="modal-head">
+        <span class="kicker">JOIN THE EXPERIENCE</span>
+        <h2 id="modalTitle">Claim your<br><em>place.</em></h2>
+        <p>Enter your details. We will use them for event registration only.</p>
+      </div>
+      <form id="registrationForm" novalidate>
+        <label>
+          <span>Full name</span>
+          <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required />
+          <small class="error" id="nameError"></small>
+        </label>
+        <label>
+          <span>Email ID</span>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required />
+          <small class="error" id="emailError"></small>
+        </label>
+        <label>
+          <span>College ID</span>
+          <input type="text" id="collegeId" name="collegeId" autocomplete="off" placeholder="Your university ID" required />
+          <small class="error" id="collegeError"></small>
+        </label>
+        <button class="primary-btn form-submit" type="submit"><span>Submit registration</span><b>⚡</b></button>
+      </form>
+      <div class="success-state" id="successState" hidden>
+        <div class="success-icon">✓</div>
+        <span class="kicker">REGISTRATION RECEIVED</span>
+        <h3>You are on the list.</h3>
+        <p>Keep an eye out for the official date and time announcement.</p>
+        <button class="text-link" data-close-register>Return to event <span>↗</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Registration saved on this device.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
