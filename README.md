@@ -2,6 +2,10 @@
 
 A Marvel-inspired, Thor-themed event landing page created for the GeeksForGeeks Student Chapter, Bennett University.
 
+## Deployment  https://sriyanshpandey7717.github.io/thunder-gfg-bennett/
+
+
+
 ## Files
 
 - `index.html` — page structure and content
